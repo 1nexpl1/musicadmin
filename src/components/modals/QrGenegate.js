@@ -53,7 +53,7 @@ const QrGenegate = ({ show, onHide, songs }) => {
                     <label for="body">Фон</label>
                 </div>
                 <div id="printableArea">
-                    <QRCode value={'https://player.flowers-pro-vp.ru/' + selected} ref={ref} fgColor={color} bgColor={backColor} />
+                    <QRCode value={'https://flowersproplayer.ru/' + selected} ref={ref} fgColor={color} bgColor={backColor} />
                 </div>
             </Modal.Body>
             <Modal.Footer>
